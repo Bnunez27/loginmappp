@@ -13,7 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Loginmap"
         tools:targetApi="31">
-
+        <activity
+            android:name=".registro_calorias"
+            android:exported="false" />
+        <activity
+            android:name=".menu_usuario"
+            android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -29,10 +34,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="YOUR_API_KEY" />
 
-        <activity
-            android:name=".mapabici"
-            android:exported="false"
-            android:label="@string/title_activity_mapabici" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

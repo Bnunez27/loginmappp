@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         ButtonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1 = new Intent(getApplicationContext(), mapabici.class);
+                Intent intent1 = new Intent(getApplicationContext(), menu_usuario.class);
                 startActivity(intent1);
 
             }
